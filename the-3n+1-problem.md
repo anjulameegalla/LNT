@@ -1,9 +1,10 @@
-## The Collatz Conjecture
-
-### What is it
-The [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), also known as the "3n + 1 problem" is a mathematical enigma that has remained unsolved for over 80 years, which is named after the mathematician [Lothar Collatz](https://en.wikipedia.org/wiki/Lothar_Collatz), who introduced the idea in 1937. It states that if you take any positive integer and repeatedly apply the following rules, you will eventually reach the number 1.
+## The 3n + 1 Problem
 
 <img src="res/collatz-meme.png" height=360px>
+
+### What is "Collatz Conjecture"
+
+The [Collatz Conjecture](https://en.wikipedia.org/wiki/Collatz_conjecture), also known as the "3n + 1 problem" is a mathematical enigma that has remained unsolved for over 80 years, which is named after the mathematician [Lothar Collatz](https://en.wikipedia.org/wiki/Lothar_Collatz), who introduced the idea in 1937. It states that if you take any positive integer and repeatedly apply the following rules, you will eventually reach the number 1.
 
 The rules are as follows:
 
@@ -15,7 +16,7 @@ For example, starting with the number 6 & 9, the sequence would be:
 
 <img src="res/collatz-spiral.png" height=360px>
 
-The mystery of the conjecture lies in its deceptive simplicity and the fact that despite extensive computational verification, no general proof exists. The only known cycle is the trivial one (1→4→2→1), and if another cycle were to be discovered, it would disprove the conjecture. Mathematician Paul Erdős famously stated that “Mathematics is not yet ready for such problems,” highlighting the difficulty in proving it.
+The mystery of the conjecture lies in its deceptive simplicity and the fact that despite extensive computational verification, no general proof exists. The only known cycle is the trivial one (1→4→2→1), and if another cycle were to be discovered, it would disprove the conjecture. Mathematician [Paul Erdős](https://en.wikipedia.org/wiki/Paul_Erd%C5%91s) famously stated that “**Mathematics is not yet ready for such problems**”, highlighting the difficulty in proving it.
 
 <br>
 
@@ -55,7 +56,6 @@ def main():
 
 ```
 
-<br>
 
 ### obfuscated C code
 
@@ -120,7 +120,7 @@ _3 main() {
 }
 ```
 
-The tree of all the numbers having fewer than 20 steps. [[View full sized image](https://en.wikipedia.org/wiki/Collatz_conjecture#/media/File:All_Collatz_sequences_of_a_length_inferior_to_20.svg)]
+**The tree of all the numbers having fewer than 20 steps.** [[View full sized image](https://en.wikipedia.org/wiki/Collatz_conjecture#/media/File:All_Collatz_sequences_of_a_length_inferior_to_20.svg)]
 
 <img src="res/collatz-sequences.png" height=360px>
 
